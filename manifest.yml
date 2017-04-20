@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pranathi-cloudant-sample1
+  host: pranathi-cloudant-sample1
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-79
+  - Language Translator-ri
